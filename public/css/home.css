@@ -1,0 +1,262 @@
+/* display section */
+
+.display{
+    background-color: #FFB200;
+    height: 750px;
+    position: relative;
+}
+.img1 img{
+    width: 500px;
+    display: block;
+    position: absolute;
+    z-index: 9;
+    left: 240px;
+    bottom: 0px;
+
+}
+.img2 img{
+    width: 360px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 450px;
+}
+.img3 img{
+    width: 402px;
+    display: block;
+    position: absolute;
+    left:700px;
+    top: 50px;
+}
+.img4 img{
+    width: 420px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+
+}
+.img5 img{
+    width: 340px;
+    display: block;
+    position: absolute;
+    right: 100px;
+    top:200px;
+}
+.dsTitle{
+    text-align: right;
+font: normal normal normal 44px/48px Berlin Sans FB;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.ds-details{
+    text-align: right;
+    color: #fff;
+    width: 250px;
+    position: absolute;
+    bottom: 80px;
+    right: 170px;
+}
+
+
+/* <!-- Feature Section --> */
+
+.feature-section{
+    background-color: #455965;
+    height: auto;
+    padding: 20px;
+}
+.feature{
+    color: #ffffff;
+    padding: 50px auto;
+}
+
+.title{
+    position: relative;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    font : 44px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.title::before{
+    content: '';
+    height: 5px;
+    width: 100px;
+    background-color: rgb(245, 150, 35);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+.bannerwrapper{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #DCDCDC;
+}
+
+.bannerwrapper .image1{
+    position: absolute;
+    top: -100px;
+    right: -300px;
+    width: 50%;
+}
+.bannerwrapper .image2{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%,-40%);
+    width: 60%;
+}
+.bannerwrapper .center{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,54%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bannerwrapper .center h1{
+    text-align: center;
+font: 36px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+ }
+
+ .bannerwrapper .center p{
+    width: 87%; 
+    text-align: center;
+    font: normal normal normal 16px Malgun Gothic;
+    letter-spacing: 0px;
+    color: #181C37;
+    opacity: 1;
+ }
+
+ .bannerwrapper .center button{
+    background: #181C37 0% 0% no-repeat padding-box;
+    border-radius: 63px;
+    opacity: 1;
+    text-align: left;
+    margin-top: 15px;
+    padding: 10px 32px;
+    font: normal normal bold 16px Poppins;
+    letter-spacing: 0px;
+    color: #F8F8F8;
+    opacity: 1;
+ }
+button:focus{
+     outline: none;
+ }
+.threeStarWrapper{
+    width: 100%;
+    height: 300px;
+    background: #FFFFFF;
+}
+ .threeStar{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     /* bottom: -150px; */
+     transform: translate(-50%,65%);
+     display: flex;
+     justify-content: center;
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+     height: 300px;
+ }
+
+ .threeStar img{
+     margin: auto;
+     width: 25%;
+     height: 100%;
+    box-shadow: -7px 25px 55px #00000057;
+    border-radius: 115px 19px;
+    opacity: 1;
+ }
+
+.homebanner{
+    padding: 30px 0px;
+    background: url(../images/2.png);
+    background-size: 68%;
+    background-repeat: no-repeat;
+    background-position-x: 732px;
+    background-position-y: 280px;
+}
+
+.bannerfooter h1{
+    text-align: left;
+    font: normal normal normal 48px Berlin Sans FB;
+    letter-spacing: 0px;
+    color: #FEB914;
+    opacity: 1;
+}
+.bannerfooter p{
+    text-align: left;
+
+    font: italic normal normal 18px Century Gothic;
+    letter-spacing: 0px;
+    color: #686868;
+    opacity: 1;
+}
+ .card{
+    padding: 20px 20px 0px 20px;
+    box-shadow: -10px 7px 47px #00000029;
+}
+.card .celebName{
+    text-align: left;
+font: normal normal bold 16px Poppins;
+letter-spacing: 0px;
+color: #222121;
+opacity: 1;
+}
+.feature .card img{
+    width: 100%;
+    height: 250px !important;
+    overflow: hidden;
+    object-position: top;
+    object-fit: cover;
+}
+.card .celebTag{
+    text-align: left;
+font: normal normal 600 12px Poppins;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.bannerfooter .bannerfooterCard .smallCard{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.bannerfooter .bannerfooterCard .smallCard img{
+    width: 100%;
+    height: 150px !important;
+    overflow: hidden;
+    object-position: top;
+    object-fit: cover;
+}
+
+.viewMoreBtn{
+    margin: 20px auto;
+    background-color: #FFB200;
+    padding: 10px 32px;
+    box-shadow: -8px 33px 41px #00000045;
+    border-radius: 32px;
+    text-align: left;
+    font: normal normal medium 20px Poppins;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #4B4B4B;
+    opacity: 1;
+}

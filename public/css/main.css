@@ -1,0 +1,339 @@
+@import url('./login.css');
+@import url('./your_bookings.css');
+@import url('./category.css');
+@import url('./enroll-aas-celebs.css');
+
+@font-face {
+    font-family: Berlin Sans FB;
+    src: url(berlin-sans.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.w-10{
+    width: 10%;
+}
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.w-100,.w-full{
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+footer{
+    padding: 50px;
+}
+footer a{
+    color: #e4e4e4;
+}
+.header{
+    background-color: #DCDCDC;
+}
+nav{
+    padding: 30px!important;
+}
+.customNav{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #181C37;
+    border-radius: 0 0 45px 45px;
+    color: #ffffff;
+    box-shadow:   20px 20px 33px hsl(0, 0%, 33%), 
+    -20px -20px 33px #656565;
+}
+.customNav .nav-link{
+    color: #ffffff!important;
+}
+.customNav .nav-link:hover{
+    color: #f5f5f5!important;
+}
+.customNav .loginBtn{
+    background: transparent linear-gradient(93deg, #FFAC00 0%, #FF7600 100%) 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    opacity: 1;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 38px;
+}
+.logo{
+    width: 80px;
+}
+.booking-section{
+    background-color: #DCDCDC;
+}
+.left-section,.right-section{
+    padding: 10%;
+}
+.main-card{
+    width: 80%;
+    height: 470px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;   
+}
+.main-card img{
+    width: 100%;
+    height: 70%; 
+    object-fit: cover; 
+object-position: center;
+
+}
+.underline{
+    position: relative;
+    top: 10px;
+    height: 5px;
+    width: 150px;
+    background-color: #000;
+    margin: 0;
+    
+}
+.main-card .celeb-name{
+    text-align: left;
+font: normal normal bold 30px Poppins;
+letter-spacing: 0px;
+color: #222121;
+opacity: 1;
+margin: 8px 0;
+}
+.main-card .celeb-tag{
+    text-align: left;
+    font: normal normal 600 22px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.other-card{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    height: 230px;
+}
+.other-card img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;  
+object-position: center;
+}
+.other-card .underline{
+    position: relative;
+    bottom: 60px;
+    height: 3px;
+    width: 50px;
+    background-color: #000; 
+}
+.other-card .celeb-name{
+    text-align: left;
+    font: normal normal bold 16px Poppins;
+    letter-spacing: 0px;
+    color: #222121;
+    opacity: 1;
+    margin: 2px!important;
+}
+.other-card .celeb-tag{
+    text-align: left;
+    font: normal normal 600 12px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;   
+    margin: 1px!important;
+}
+.inputs{
+    height: 30px;
+    margin: 10px!important;
+    border-color: #000000!important;
+    color: #FFA900!important;
+}
+.input-box{
+    margin: 30px 0;
+}
+.footer{
+    background-color: #181C37;
+    color: #ffffff;
+}
+/* footer{
+    color: #ffffff;
+} */
+.km-btn{
+    background: #FFA900 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+    opacity: 1;
+    color: #000000;
+    padding: 5px 20px;
+}
+.celeb-smi{
+    font-size: 3rem!important;
+    color: #fff;
+    margin: 10px;
+}
+.artist{
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    color: #ffffff;
+    font-size: 2rem!important;  
+    bottom: 80px;
+    left: 210px;
+}
+.artist-info{
+    color: #fff;
+    margin: 15px 0;
+}
+.video-img{
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+    object-fit:cover;
+    object-position: top;
+}
+.book-now-btn{
+    background: #FFA900 0% 0% no-repeat padding-box;
+    border-radius: 36px;
+    opacity: 1;
+    color: #000000;
+    padding: 5px 20px;
+}
+.check-inputs{
+    width: 20px;
+}
+
+/* google play button */
+
+a.btn-google{
+    color:#fff
+}
+
+.btn{  
+    padding:20px;
+    margin:20px 5px;
+    font-size:18px;
+    line-height:1.3333333;
+    border-radius:6px;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border:1px solid transparent;
+    font-weight:500;
+    text-decoration: none;
+    display: inline-block
+}
+.btn:active:focus,.btn:focus{
+    outline:0
+}
+.btn:focus,.btn:hover{
+    color:#333;
+    text-decoration:none;
+    outline:0
+}
+.btn:active{
+    outline:0;
+    -webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.btn-google{
+    color:#fff;
+    background-color:#111;
+    border-color:#000;
+    padding:15px 16px 5px 40px;
+    position:relative;
+    font-family:fontfutura;
+    font-weight:600
+}
+.btn-google:focus{
+    color:#fff;
+    background-color:#555;
+    border-color:#000
+}
+.btn-google:active,.btn-google:hover{
+    color:#fff;
+    border-color:#000;
+}
+.btn-google:before{
+    content:"";
+    background-image:url(https://4.bp.blogspot.com/-52U3eP2JDM4/WSkIT1vbUxI/AAAAAAAArQA/iF1BeARv2To-2FGQU7V6UbNPivuv_lccACLcB/s30/nexus2cee_ic_launcher_play_store_new-1.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:30px;
+    height:30px;position:absolute;left:6px;top:50%;margin-top:-15px
+}
+.btn-google:after{
+    content:"GET IT ON";
+    position:absolute;
+    top:5px;
+    left:40px;
+    font-size:10px;
+    font-weight:400;
+}
+
+/* apple store btn */
+
+.btn-store {
+    color: #777777;
+    min-width: 96px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+  }
+
+  
+  .btn-store:focus, 
+  .btn-store:hover {
+    color: #ffffff !important;
+    background-color: #000000
+  }
+  
+  .btn-store .btn-label, 
+  .btn-store .btn-caption {
+    display: block;
+    text-align: left;
+    line-height: 1;
+  }
+  
+  .btn-store .btn-caption {
+    font-size: 20px;
+  }
